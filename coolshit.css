@@ -1,10 +1,5 @@
-
 html, body {
   height: 100%}
-
-body {
-  display: flex;
-}
 
 
 ol {
@@ -70,16 +65,19 @@ p {
 }
 
 #side-list-container {
-  float: left;
+  /* display: flex; */
   margin-right: 20px;
   background-color: #f8f9fa;
   padding-right: 20px;
   border-right: 1px #5eebdd solid;
-  height: 100%;
 
 }
 .underscore-object {
   border-bottom: 1px gray solid;
+}
+
+.main-container {
+  display: flex;
 }
 
 #side-list li {
