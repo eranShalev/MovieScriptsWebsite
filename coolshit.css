@@ -1,3 +1,12 @@
+
+html, body {
+  height: 100%}
+
+body {
+  display: flex;
+}
+
+
 ol {
   counter-reset: section;
 
@@ -61,14 +70,21 @@ p {
 }
 
 #side-list-container {
+  margin-right: 20px;
   background-color: #f8f9fa;
-  display: inline-block;
-  height: 500px;
+  padding-right: 20px;
+  border-right: 1px #5eebdd solid;
+  height: 100%;
+
 }
 .underscore-object {
   border-bottom: 1px gray solid;
 }
 
+#side-list li {
+  margin-bottom: 10px;
+}
+
 #main-body {
-  display: inline;
+  /* display: inline; */
 }
