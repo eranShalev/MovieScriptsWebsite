@@ -4,7 +4,7 @@ ol {
   list-style-type: none;
 }
 
-li::before {
+.nested-list li::before {
   counter-increment: section;
 
   content: counters(section, ".") " ";
@@ -56,6 +56,19 @@ p {
   font-weight: 550;
 }
 
+#side-list {
+  list-style-type: none;
+}
+
+#side-list-container {
+  background-color: #f8f9fa;
+  display: inline-block;
+  height: 500px;
+}
 .underscore-object {
   border-bottom: 1px gray solid;
+}
+
+#main-body {
+  display: inline;
 }
